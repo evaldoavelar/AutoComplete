@@ -413,6 +413,7 @@ end;
 procedure TAutoComplete.SetItemIndex(const Value: Integer);
 begin
   FItemIndex := Value;
+  FDropDown.ItemIndex := value;
 end;
 
 procedure TAutoComplete.SetItens(const Value: TStrings);
